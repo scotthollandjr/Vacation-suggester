@@ -9,7 +9,47 @@
   </head>
   <body>
     <div class="container">
-
-    </div>
+      <div id="first">
+        <form id="questions">
+          <label for="weather">Which kind of weather do you like?</label>
+          <select id="weather">
+            <option disabled selected></option>
+            <option value="cold">Cold</option>
+            <option value="hot">Hot</option>
+          </select>
+          <label for="landscape">Which kind of landscape do you like?</label>
+          <select id="landscape">
+            <option disabled selected></option>
+            <option value="beach">Beach</option>
+            <option value="forest">Forest</option>
+          </select>
+          <label for="fancy">How fancy?</label>
+          <select id="fancy">
+            <option disabled selected></option>
+            <option value="resort">Resort-style</option>
+            <option value="rustic">Inexpensive</option>
+          </select>
+          <label for="distance">How far are you willing to travel?</label>
+          <select id="distance">
+            <option disabled selected></option>
+            <option value="far">Far</option>
+            <option value="notfar">Not very far</option>
+          </select>
+          <label for="population">Lots of people or remote?</label>
+          <select id="population">
+            <option disabled selected></option>
+            <option value="populated">Poppin'</option>
+            <option value="remote">Remote</option>
+          </select>
+          <button type="submit" class="button">Find your destination!</button>
+        </form> <!-- id="questions"-->
+      </div> <!-- id="first" -->
+      <div id="forest" class="cold beach resort far populated">
+        <p>forest</p>
+      </div>
+      <div id="beach" class="hot forest rustic notfar remote">
+        <p>beach</p>
+      </div>
+    </div> <!-- id="container" -->
   </body>
 </html>

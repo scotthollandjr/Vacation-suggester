@@ -1,1 +1,7 @@
-styles.css
+select, button {
+  display: block;
+}
+
+#forest, #beach {
+  display: none;
+}
