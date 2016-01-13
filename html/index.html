@@ -12,43 +12,100 @@
       <div id="first">
         <form id="questions">
           <label for="weather">Which kind of weather do you like?</label>
-          <select id="weather">
+          <select id="weather" class="form-control">
             <option disabled selected></option>
             <option value="cold">Cold</option>
             <option value="hot">Hot</option>
           </select>
           <label for="landscape">Which kind of landscape do you like?</label>
-          <select id="landscape">
+          <select id="landscape" class="form-control">
             <option disabled selected></option>
             <option value="beach">Beach</option>
             <option value="forest">Forest</option>
           </select>
           <label for="fancy">How fancy?</label>
-          <select id="fancy">
+          <select id="fancy" class="form-control">
             <option disabled selected></option>
             <option value="resort">Resort-style</option>
             <option value="rustic">Inexpensive</option>
           </select>
           <label for="distance">How far are you willing to travel?</label>
-          <select id="distance">
+          <select id="distance" class="form-control">
             <option disabled selected></option>
             <option value="far">Far</option>
             <option value="notfar">Not very far</option>
           </select>
-          <label for="population">Lots of people or remote?</label>
-          <select id="population">
+          <label for="faction">Light side or dark side?</label>
+          <select id="faction" class="form-control">
             <option disabled selected></option>
-            <option value="populated">Poppin'</option>
-            <option value="remote">Remote</option>
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
           </select>
-          <button type="submit" class="button">Find your destination!</button>
+          <br>
+          <button type="submit" class="button btn">Find your destination!</button>
         </form> <!-- id="questions"-->
       </div> <!-- id="first" -->
-      <div id="forest" class="cold beach resort far populated">
-        <p>forest</p>
+      <div id="endor" class="hot forest resort">
+        <h4>Your perfect vacation destination is</h4>
+        <h2>Endor!</h2>
+        <img src="../img/endor.jpg">
+        <p class="distance"></p>
+        <h4>Endor, also known as the Forest Moon of Endor, is a small forested moon located in the Outer Rim Territories and the homeworld of the Ewok species. Enjoy your luxorious stay in tree houses!</h4>
       </div>
-      <div id="beach" class="hot forest rustic notfar remote">
-        <p>beach</p>
+      <div id="alderaan" class="cold forest resort">
+        <h4>Your perfect vacation destination is</h4>
+        <h2>Alderaan!</h2>
+        <img src="../img/alderaan.jpg">
+        <p class="distance"></p>
+        <h4>Alderaan, located in the Core Worlds, was a terrestrial planet covered with mountains. Your stay here would have been amazing, however, travel to this beauty is currently unavailable.</h4>
+      </div>
+      <div id="corelia" class="cold beach resort">
+        <h4>Your perfect vacation destination is</h4>
+        <h2>Corellia!</h2>
+        <img src="../img/corelia.jpg">
+        <p class="distance"></p>
+        <h4>Corellia is located in the Core Worlds. It was known for its ace pilots and large starships. Vessels such as the Millennium Falcon and Imperial starships were built on Corellia. If you're lucky, you might just run into a resistance hide out.</h4>
+      </div>
+      <div id="hoth" class="cold beach rustic">
+        <h4>Your perfect vacation destination is</h4>
+        <h2>Hoth!</h2>
+        <img src="../img/hoth.jpg">
+        <p class="distance"></p>
+        <h4>Hoth is a remote, icy planet that was the sixth planet in the star system of the same name. It notably hosted Echo Base, the temporary headquarters of the Alliance to Restore the Republic, until the Galactic Empire located the Rebels. And boasts some of the best masseuses in the region.</h4>
+      </div>
+      <div id="naboo" class="hot beach resort">
+        <h4>Your perfect vacation destination is</h4>
+        <h2>Naboo!</h2>
+        <img src="../img/naboo.png">
+        <p class="distance"></p>
+        <h4>Naboo is a bountiful planet in the Mid Rim, close to the border of the Outer Rim Territories. It was home to the Gungan species and to a population of humans known as the Naboo. Great wines and hotel resorts, as well.</h4>
+      </div>
+      <div id="tatooine" class="hot beach rustic">
+        <h4>Your perfect vacation destination is</h4>
+        <h2>Tatooine!</h2>
+        <img src="../img/tatooine.jpg">
+        <p class="distance"></p>
+        <h4>Tatooine is a desert planet located in the Outer Rim Territories. Due to the lack of surface water, many residents of the planet instead drew water from the atmosphere via moisture farms. Moisture isn't the only thing this planet farms, its grapes produce surprisingly tasty vinos.</h4>
+      </div>
+      <div id="dagobah" class="hot forest rustic">
+        <h4>Your perfect vacation destination is</h4>
+        <h2>Dagobah!</h2>
+        <img src="../img/dagobah.jpg">
+        <p class="distance"></p>
+        <h4>Dagobah is a remote world of swamps and forests, that served as a refuge for Jedi Grand Master Yoda during his exile after the destruction of the Jedi Order. Let planet be your refuge from all the stresses of your everyday life.</h4>
+      </div>
+      <div id="yavin4" class="cold forest rustic">
+        <h4>Your perfect vacation destination is</h4>
+        <h2>Yavin 4!</h2>
+        <img src="../img/corelia.jpg">
+        <p class="distance"></p>
+        <h4>Yavin 4 was the jungle-covered fourth moon in orbit around the red gas giant Yavin. At some point during the Galactic Civil War, it hosted the headquarters of the Alliance to Restore the Republic, and is a favorite vacation spot among locals.</h4>
+      </div>
+      <div id="red">
+        <img src="../img/red.png">
+      </div>
+      <div id="green">
+        <img src="../img/green.png">
       </div>
     </div> <!-- id="container" -->
   </body>

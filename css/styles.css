@@ -2,8 +2,13 @@ select, button {
   display: block;
 }
 
-#forest, #beach {
+#endor, #alderaan, #corelia, #endor, #hoth, #naboo, #tatooine, #dagobah, #yavin4, #red, #green {
   display: none;
+  text-align: center;
+}
+
+.form-control {
+  width: 400px;
 }
 
 img {
