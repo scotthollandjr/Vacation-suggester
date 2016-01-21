@@ -1,6 +1,6 @@
-# _Vacation Suggestor Project_
+# _Vacation Suggester Project_
 
-##### _1/11/2015_
+##### _1/11/2016_
 
 #### By _**Scott Holland, Jr.**_
 
