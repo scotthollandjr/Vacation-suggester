@@ -10,4 +10,8 @@ Vacation suggester page with jQuery, JavaScript, and HTML terms, for Epicodus In
 
 _This website will use HTML, CSS and JavaScript_
 
+## Link to GitHub Repository
+
+https://github.com/theAppanaut/Vacation-suggester.git
+
 Copyright (c) 2016 **_Scott Holland, Jr._**
